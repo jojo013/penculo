@@ -1,0 +1,177 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+    header.light-mode {
+      background-color: #e0b30f; /* Fundo branco */ 
+      color: #0f0101; /* Texto preto */
+      padding: 30px;
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  }
+  
+  /* Estilo padrão do cabeçalho (dark mode) */
+  header.dark-mode {
+      background-color: #2d291c; /* Fundo preto */
+      color: #f7f5f5; /* Texto branco */
+      padding: 30px;
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .catalog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .catalog-item {
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .product .like-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .product .like-btn i {
+    color: #ddd;
+    font-size: 24px;
+  }
+  .like-btn i.liked {
+    color: red;
+  }
+  
+  .block {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #ab8600;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .quadrado {
+    position: relative;
+    width: 98%;
+    height: 200px;
+    background-color: #fffcc5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  .botao {
+    top: 32%;
+    left: 49%;
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #fff7e3;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  .cube {
+    top: 28%;
+    left: 71.2%;
+    position: absolute;
+    background-color: #1f1f1f;
+    color: #f9f9f9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    border: none;
+    border-radius: 9px;
+    font-size: 30px;
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+  .click-box {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  img{
+    top: -56px;
+    left: 60%;
+    position: absolute;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+  }
+  
+button{
+    width: 120px;
+    height: 90px;
+}
